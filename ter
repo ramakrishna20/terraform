@@ -88,7 +88,7 @@ resource "azurerm_virtual_machine" "vm" {
   os_profile {
     computer_name  = "myTFVM"
     admin_username = "azureuser"
-    admin_password = "Origin@2020"
+    admin_password = "12345678"
   }
 
   os_profile_linux_config {
